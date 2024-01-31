@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Personal Portfolio of Alexander Klein.">
+    <title>Alexander Klein</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7641a78830.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href=""><i class="fa-sharp fa-solid fa-x"></i></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+        <ul>
+            <li class="menu" onclick=showSidebar()><a href="#"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href=""><b>Projects</b></a></li>
+            <li class="hideOnMobile"><a href="resume.html">Resume</a></li>
+            <li class="nametag"><a href="index.html">Alexander Klein</a></li>
+        </ul>
+    </nav>
+    <div class="mainpage">
+        <div class="col column-text">
+            <div class="section">
+                <div class="standard-title">
+                    Projects
+                </div>
+                <div class="standard-paragraph">   
+                Listed below are projects I have developed in both personal and team settings, 
+                showcasing my collaboration and versatility, whether they are designed for 
+                personal use or academic endeavors.                
+                </div>
+                <div class="standard-paragraph">
+                If you wish to view more technical descriptions of these projects, or my other experiences, 
+                check out the resume tab.
+                </div>
+            </div>
+            <hr class="text-hr">
+            <div class="section project">
+                <div class="standard-title">
+                    Chess Analyzer
+                    <!-- <a href="https://github.com/a1exanderklein/Chess-Analysis"><i class="fa-solid fa-up-right-from-square" style="font-size: 1.2rem; vertical-align: middle;"></i></a> -->
+                </div>
+                <div class="standard-paragraph left">
+                    <a href="https://github.com/a1exanderklein/Chess-Analysis">Github <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <br>
+                    <b>Languages: </b><i>Python</i>
+                </div>
+                <!-- <div class="standard-paragraph">
+                </div> -->
+                <div class="standard-paragraph left">
+                    <ul class="paragraph-lists">    
+                        <li>
+                            Spearheaded a team in evaluating 100,000+ chess match data points from .pgn files
+                        </li>
+                        <li>
+                            Presented user-selected data on opening rankings, player reports, and high-level matches
+                        </li>
+                        <li>
+                            Externally compared the time efficiency of merge and quick sort algorithms
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="text-hr">
+            <div class="section project">
+                <div class="standard-title">
+                    Phone Guru
+                </div>
+                <div class="standard-paragraph left">
+                    <a href="https://github.com/a1exanderklein/verizon-hack">Github <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <br>
+                    <b>Languages: </b><i>Python, HTML/CSS, JavaScript</i>
+                </div>
+                <!-- <div class="standard-paragraph">
+                </div> -->
+                <div class="standard-paragraph left">
+                    <ul class="paragraph-lists">    
+                        <li>
+                            Collaborated in a multidisciplinary team for the Verizon & UF AI Days hackathon. 
+                        </li>
+                        <li>
+                            Designed a web app with AI-driven smartphone recommendations based on user data using OpenAI's GPT-4 API. 
+                            
+                        </li>
+                        <li>
+                            Applied Python, BeautifulSoup, and Requests for web scraping to train the model with current smartphone data.
+                            
+                        </li>
+                        <li>
+                            Built a frontend using HTML/CSS, integrating the GPT-4 API with JavaScript
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="text-hr">
+            <div class="section project">
+                <div class="standard-title">
+                    GymLink
+                </div>
+                <!-- <div class="standard-paragraph">
+                </div> -->
+                <div class="standard-paragraph left">
+                    <a href="https://github.com/a1exanderklein/GymLink">Github <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <br>
+                    <b>Languages: </b><i>JavaScript</i>
+                </div>
+                <div class="standard-paragraph left">
+                    <ul class="paragraph-lists">    
+                        <li>
+                            Developed a mobile app using React Native and Firebase to create a matching-style platform for gym-goers
+                        </li>
+                        <li>
+                            Integrated Firebase Email/Password Authentication to enable user sign-up through secure registration
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="text-hr">
+            <div class="section project">
+                <div class="standard-title">
+                    Minesweeper
+                </div>
+                <!-- <div class="standard-paragraph">
+                </div> -->
+                <div class="standard-paragraph left">
+                    <a href="https://github.com/a1exanderklein/minesweeper">Github <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <br>
+                    <b>Languages: </b><i>C++</i>
+                </div>
+                <div class="standard-paragraph left">
+                    <ul class="paragraph-lists">    
+                        <li>
+                            Reimagined the popular logic puzzle game utilizing an original UI
+
+                        </li>
+                        <li>
+                            Employed the SFML library for textures and C++ on the backend
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="text-hr">
+            <div class="section project">
+                <div class="standard-title">
+                    Sudoku
+                </div>
+                    <!-- <div class="standard-paragraph">
+                    </div> -->
+                <div class="standard-paragraph left">
+                    <a href="https://github.com/a1exanderklein/COP3502-Final-Project-Sudoku">Github <i class="fa-solid fa-up-right-from-square"></i></a>
+                    <br>
+                    <b>Languages: </b><i>Python</i>
+                </div>
+                <div class="standard-paragraph left">
+                    <ul class="paragraph-lists">    
+                        <li>
+                            Led a team in the development of a Python-based Sudoku Generator
+                        </li>
+                        <li>
+                            Employed the Pygame library to design a user-friendly UI
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>             
+        </div>
+        <div class="col column-info"> 
+            <img src="assets/headshot.jpeg" alt="Alexander Klein Headshot"
+            style="width:50%; border:solid 1px #90a4ae; margin-top:1%">
+            <div class="profile-description">
+                Alexander Klein
+                <br>
+                Undergraduate Student
+                <br>
+                <a href="https://www.ufl.edu/">
+                    University of Florida <br>
+                </a>
+                <div class="icons">
+                    <a href="http://www.linkedin.com/in/sophiaiaconis/">
+                        <i class="fa fa-linkedin-square"></i>
+                    </a>
+                    <a href="http://www.github.com/a1exanderklein">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="mailto:sophia.iaconis@ufl.edu">
+                        <i class="fa-solid fa-square-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <hr class="text-hr">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div> 
+    </div>
+</body>
+</html>
