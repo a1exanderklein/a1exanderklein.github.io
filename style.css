@@ -180,11 +180,16 @@ a {
 .icons a {
     margin: 0 1%;
     font-size: 1.3rem;
+    transition: ease 0.5s;
 }
 
 .icons i {
     height: 100%;
     width: 100%;
+}
+
+.icons a:hover {
+    opacity: 50%;
 }
 
 .paragraph-lists {
